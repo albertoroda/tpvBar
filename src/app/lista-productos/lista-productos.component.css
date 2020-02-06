@@ -1,0 +1,18 @@
+.card{
+    display: inline-block;
+    
+    
+}
+.producto{
+    border: 1px solid rgb(204, 198, 198);
+}
+h2{
+    text-align: center;
+    background-color: coral;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-primary{
+    color: white;
+}
+

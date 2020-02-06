@@ -1,0 +1,31 @@
+.caja{
+   border: 1px solid rgb(204, 198, 198);
+}
+h3{
+    background-color: coral;
+    text-align: center;
+    color: white;
+}
+.total{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 1.5em;
+}
+.quitar{
+    display: inline-block;
+    background-color: crimson;
+}
+.btn-danger{
+    background-color: crimson;
+    color: white;
+    float: right;
+}
+.resultado{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-group-item{
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+<div class="caja">
+    <h3>CAJA</h3>
+    <!--<div [innerHTML]="pintarProductos()">-->
+
+    <div class="resultado" *ngFor="let producto of productos">
+        <li class="list-group-item col-12"><strong>{{producto.nombre}}:</strong> {{producto.precio}}€
+            <em>(x{{producto.cantidad}})</em> <a class="btn btn-danger" (click)="borrar(producto)">QUITAR</a>
+
+    </div>
+
+    <div class="total" [innerHTML]="calcularTotal()">
+
+    </div>
+</div>
